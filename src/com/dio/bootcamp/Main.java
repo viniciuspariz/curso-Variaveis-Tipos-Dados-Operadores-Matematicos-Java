@@ -5,13 +5,27 @@ package com.dio.bootcamp;
  *   Aula 02 adicionada ao método main
  *   Aula 03 adicionada ao método main
  *   Aula 04 adicionada ao método main
+ *
+ *   Separando as aulas em métodos distintos
  */
 
 public class Main {
 
     public static void main(String[] args) {
 
-        /*
+        System.out.println("Exercícios da Aula 01");
+        aula01();
+        System.out.println("Exercícios da Aula 02");
+        aula02();
+        System.out.println("Exercícios da Aula 03");
+        aula03();
+        System.out.println("Exercícios da Aula 04");
+        aula04();
+
+    }
+
+    private static void aula01() {
+
         // Exercícios da Aula 01
 
         int i;
@@ -55,6 +69,10 @@ public class Main {
         System.out.println(quantidadedeProduto);
         System.out.println(NUMERO_TENTATIVAS);
         System.out.println(QUANTIDADE_OPCOES);
+
+    }
+
+    private static void aula02() {
 
         // Exercício Aula 02
 
@@ -107,7 +125,9 @@ public class Main {
         System.out.println(c4);
         System.out.println(st1 + c4 + st2);
 
+    }
 
+    private static void aula03(){
 
         // Exercícios Aula 03
 
@@ -207,10 +227,11 @@ public class Main {
         int c = 2;
         c *= i += 5; //c = 2 * i; i = i + 5 -> c = 2 * i; i = 10 + 5 -> c = 2 * 15 -> c = 30
         System.out.println("c *= i += 5 = " + c);
-        */
+
+    }
+    private static void aula04(){
 
         //Exercícios Aula 04
-
 
         byte b1;
         short s1 = 1000;
