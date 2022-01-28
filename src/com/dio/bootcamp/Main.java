@@ -4,6 +4,7 @@ package com.dio.bootcamp;
  *   Class criada para o exercício da Aula 1 de Variáveis, Tipos de Dados e Operadores Matemáticos
  *   Aula 02 adicionada ao método main
  *   Aula 03 adicionada ao método main
+ *   Aula 04 adicionada ao método main
  */
 
 public class Main {
@@ -106,7 +107,7 @@ public class Main {
         System.out.println(c4);
         System.out.println(st1 + c4 + st2);
 
-        */
+
 
         // Exercícios Aula 03
 
@@ -206,6 +207,54 @@ public class Main {
         int c = 2;
         c *= i += 5; //c = 2 * i; i = i + 5 -> c = 2 * i; i = 10 + 5 -> c = 2 * 15 -> c = 30
         System.out.println("c *= i += 5 = " + c);
+        */
+
+        //Exercícios Aula 04
+
+
+        byte b1;
+        short s1 = 1000;
+        b1 = (byte) s1;
+
+        long l1;
+        int i1 = 10;
+        l1 = i1;
+
+        int i2;
+        long l2 = 1000000000000000L;
+        i2 = (int) l2;
+
+        int i3;
+        long l3 = 10000L;
+        i3 = (int) l3;
+
+        double d1;
+        float f1 = 10.5f;
+        d1 = f1;
+
+        float f2;
+        float f3;
+        double d2 = 10000.58d;
+        f2 = (float) d2;
+        double d3 = 10000.5888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888d;
+        f3 = (float) d3;
+
+        int i4;
+        float f4 = 11.5697f;
+        i4 = (int) f4;
+
+        System.out.println("b1 = " + b1);
+        System.out.println("l1 = " + l1);
+        System.out.println("i2 = " + i2);
+        System.out.println("i3 = " + i3);
+        System.out.println("d1 = " + d1);
+        System.out.println("f2 = " + f2);
+        System.out.println("f3 = " + f3);
+        System.out.println("i4 = " + i4);
+
+        b1 = (byte) d3;
+
+        System.out.println("b1 = " + b1);
 
     }
 
